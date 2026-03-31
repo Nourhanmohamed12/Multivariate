@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=60A5FA&center=true&vCenter=true&lines=Heart+Disease+Prediction;Random+Forest+%7C+85%25+Accuracy; Statistical+Analysis+%26+ML" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=60A5FA&center=true&vCenter=true&lines=Heart+Disease+Prediction;Random+Forest+%7C+85%25+Accuracy;Statistical+Analysis+%2" />
   <br><br>
   <img src="https://img.shields.io/badge/❤️-Heart%20Disease%20ML-1E40AF?style=for-the-badge&logo=heart&logoColor=white" />
   <img src="https://img.shields.io/badge/⭐-85%25%20Accuracy-3B82F6?style=for-the-badge&logo=accuracy&logoColor=white" />
