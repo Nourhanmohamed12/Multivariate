@@ -52,55 +52,6 @@ SMOTE, imputation, encoding, scaling
 mermaid
 
 
-📊 Dataset Overview (UCI Heart Disease)
-Feature
-
-Description
-
-Preprocessing
-
-age
-
-Patient age
-
-Scaled
-
-cp
-
-Chest pain type
-
-One-Hot Encoded
-
-trestbps
-
-Resting BP
-
-Imputed (mean)
-
-chol
-
-Cholesterol
-
-Dropped (low corr)
-
-thalch
-
-Max heart rate
-
-Scaled
-
-oldpeak
-
-ST depression
-
-Strong predictor
-
-num
-
-Target (0-4)
-
-Multi-class
-
 Missing Data: Imputed with SimpleImputer(mean)
 
 🎯 Model Performance
@@ -112,13 +63,24 @@ python
 Average: 85.16% ± 2.1%
 
 # Test Set Classification Report
+
+
               precision    recall  f1-score   support
+
+              
 Class 0        0.83      0.88      0.86       85
+
 Class 1        0.85      0.68      0.75       81
+
 Class 2        0.77      0.86      0.81       72
+
 Class 3        0.84      0.88      0.86       84
+
 Class 4        0.99      0.97      0.98       89
+
 Accuracy: **86%**
+
+
 🔬 Statistical Analysis Results
 MANOVA (Multivariate ANOVA)
 
@@ -127,37 +89,13 @@ Dependent vars: age, thalch, oldpeak
 Independent: num (disease severity)
 Result: p < 0.0001 **(Highly Significant)**
 Paired T-Tests
-Variable
+Variable            T-statistic          P-value            Significance
 
-T-statistic
+age                  -0.2912             0.7710             ❌ Not significant
 
-P-value
+thalch               1.4062              0.1600             ❌ Not significant
 
-Significance
-
-age
-
--0.2912
-
-0.7710
-
-❌ Not significant
-
-thalch
-
-1.4062
-
-0.1600
-
-❌ Not significant
-
-oldpeak
-
--2.0954
-
-0.0364
-
-✅ **Significant
+oldpeak             -2.0954              0.0364             ✅ Significant
 
 📈 Correlation Analysis
 <div align="center"> ![Correlation Matrix](screenshots/correlation_heatmap.png) </div>
@@ -170,7 +108,7 @@ bash
 
 Copy code
 # 1. Clone Repository
-git clone https://github.com/Nourhanmohamed12/multivariate_final_project(3).git
+git clone https://github.com/Nourhanmohamed12/multivariate.git
 cd heart-disease-prediction
 
 # 2. Install Dependencies
